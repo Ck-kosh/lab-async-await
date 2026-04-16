@@ -1,5 +1,4 @@
 // Write your code here!
-<ul id="post-list"></ul>
 fetch('https://jsonplaceholder.typicode.com/posts')
   .then(response => response.json())
   .then(posts => {
